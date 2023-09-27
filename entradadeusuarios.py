@@ -10,8 +10,8 @@ n2 = float(input('Digite a nota 2:'))
 media = (n1+ n2)/2
 
 #saida
-print('Nome do aluno:', aluno.lower())#letras
-print('Nome do aluno:', aluno.upper())
+print('Nome do aluno:', aluno.lower(),'média:',media)#letra minúscula
+print(f'Nome do aluno: {aluno.upper()} -{media}')#letras maiúscula
 print('Nome do aluno:', aluno.title())
 
 
